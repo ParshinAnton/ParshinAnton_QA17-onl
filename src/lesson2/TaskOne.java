@@ -18,13 +18,13 @@ public class TaskOne {
         Scanner console = new Scanner(System.in);
 
         System.out.println("Enter the age of the person: ");
-        int ageOfThePerson = console.nextInt();
+        int personAge = console.nextInt();
 
-        if (7 <= ageOfThePerson && ageOfThePerson <= 13) {
+        if (personAge >= 7 && personAge <= 13) {
             System.out.println("1");
-        } else if (14 <= ageOfThePerson && ageOfThePerson <= 17) {
+        } else if (personAge >= 14 && personAge <= 17) {
             System.out.println("2");
-        } else if ((18 <= ageOfThePerson && ageOfThePerson <= 65)) {
+        } else if (personAge >= 18 && personAge <= 65) {
             System.out.println("3");
         } else {
             System.out.println("-1");
