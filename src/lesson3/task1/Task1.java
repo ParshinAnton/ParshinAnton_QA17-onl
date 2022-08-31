@@ -16,7 +16,7 @@ public class Task1 {
     public static int[] makeMassiveUsingKeybord() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter massive size: -> ");
+        System.out.print("Enter massive size: → ");
         int arrayLength = scanner.nextInt();
         int[] array = new int[arrayLength];
 
